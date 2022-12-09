@@ -1,0 +1,197 @@
+/* -----Headarea----- */
+
+.typepage-wrapper-headarea {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.typepage-closing-button {
+	font-size: 3.6rem;
+	color: white;
+	background-color: rgb(48, 48, 48);
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+/* Type Section with Buttons */
+
+.typepage .heading {
+	display: flex;
+	justify-content: center;
+}
+
+.typepage h1 {
+	text-align: center;
+	color: #ffcd02;
+	margin-top: 2.4rem;
+	font-size: 3.6rem;
+	width: 85%;
+	padding-bottom: 1rem;
+	border-bottom: #2c72b89b 1px solid;
+}
+.typepage-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	text-align: center;
+	gap: 1.6rem;
+	margin-top: 3.6rem;
+}
+
+.buttons {
+	padding: 1rem;
+	width: 150px;
+	font-size: 1.4rem;
+	color: white;
+	border-radius: 0.5rem;
+	border: none;
+	font-weight: 800;
+	cursor: pointer;
+	background-color: #ffcd02;
+	text-transform: capitalize;
+	transition: 0.2s;
+}
+
+.normal {
+	background-color: #3bb900;
+}
+.fighting {
+	background-color: black;
+}
+.flying {
+	background-color: blue;
+}
+.poison {
+	background-color: #ffe600;
+	color: black;
+}
+.ground {
+	background-color: lightpink;
+	color: black;
+}
+.rock {
+	background-color: red;
+	color: black;
+}
+.bug {
+	background-color: orange;
+	color: black;
+}
+.ghost {
+	background-color: rgb(168, 168, 168);
+	color: black;
+}
+.steel {
+	background-color: rgb(94, 1, 94);
+}
+.fire {
+	background-color: darkgreen;
+}
+.water {
+	background-color: brown;
+}
+.grass {
+	background-color: lightblue;
+	color: black;
+}
+.electric {
+	background-color: rgb(85, 216, 85);
+	color: black;
+}
+.psychic {
+	background-color: rgb(148, 1, 148);
+}
+.ice {
+	background-color: pink;
+	color: black;
+}
+.dragon {
+	background-color: rgb(148, 113, 0);
+}
+.dark {
+	background-color: rgb(72, 72, 245);
+}
+.fairy {
+	background-color: rgb(208, 94, 113);
+}
+.unknown {
+	background-color: rgb(228, 188, 128);
+	color: black;
+}
+.shadow {
+	background-color: rgb(220, 226, 61);
+	color: black;
+}
+
+.normal:hover {
+	background-color: #57d61c;
+}
+.fighting:hover {
+	background-color: rgb(38, 37, 37);
+}
+.flying:hover {
+	background-color: rgb(43, 43, 225);
+}
+.poison:hover {
+	background-color: #faeb60;
+}
+.ground:hover {
+	background-color: rgb(253, 197, 205);
+}
+.rock:hover {
+	background-color: rgb(240, 54, 54);
+}
+.bug:hover {
+	background-color: rgb(239, 189, 98);
+}
+.ghost:hover {
+	background-color: rgb(211, 211, 211);
+}
+.steel:hover {
+	background-color: rgb(126, 18, 126);
+}
+.fire:hover {
+	background-color: rgb(16, 134, 16);
+}
+.water:hover {
+	background-color: rgb(194, 72, 72);
+}
+.grass:hover {
+	background-color: rgb(202, 225, 233);
+}
+.electric:hover {
+	background-color: rgb(129, 230, 129);
+}
+.psychic:hover {
+	background-color: rgb(173, 45, 173);
+}
+.ice:hover {
+	background-color: rgb(253, 226, 230);
+}
+.dragon:hover {
+	background-color: rgb(231, 199, 94);
+}
+.dark:hover {
+	background-color: rgb(116, 116, 239);
+}
+.fairy:hover {
+	background-color: rgb(232, 160, 172);
+}
+.unknown:hover {
+	background-color: rgb(240, 215, 176);
+}
+.shadow:hover {
+	background-color: rgb(229, 233, 118);
+}
+
+.cancel-button {
+	background-color: #fff;
+	border-radius: 20px;
+	/* outline: blue 2px solid; */
+}
+
+.cancel-button:hover {
+	background-color: #ffcd02;
+	transition: 0.3s;
+}

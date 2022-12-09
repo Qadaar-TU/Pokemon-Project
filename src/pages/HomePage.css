@@ -1,0 +1,29 @@
+.home-page .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.home-page .prev-next-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.home-page button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: 0.2s all;
+}
+
+.home-page button:hover {
+  background-color: #ddd;
+}

@@ -1,0 +1,13 @@
+.filter-result-page .grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.filter-result-page .prev-next-button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 1rem;
+}
